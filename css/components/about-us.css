@@ -1,0 +1,17 @@
+.about-us {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+}
+.about-us .avatar {
+  margin-right: 110px;
+}
+.about-us .btn-blue {
+  background-color: #FF7E73;
+}
+.about-us .btn-blue:hover {
+  background-color: white;
+  color: #FF7E73;
+  -webkit-text-fill-color: #FF7E73;
+  border: 2px solid;
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Monoton&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,600&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/audio.css");
+@import url("components/footer.css");
+@import url("components/introduction.css");
+@import url("components/partners.css");
+@import url("components/success-stories.css");
+@import url("components/about-us.css");
+@import url("components/blog.css");
+@import url("components/trending-artists.css");
+@import url("components/labels.css");
+
+body {
+  background-image: url(./../images/background.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Poppins';
+  font-weight: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Bungee';
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 20px;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+p {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+#label-partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto 20px;
+  width: 25%;
+}
+
+
+

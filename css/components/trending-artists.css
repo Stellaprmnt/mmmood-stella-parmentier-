@@ -1,0 +1,26 @@
+.trending-artists {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+}
+.trending-artists-left {
+  align-items: center;
+  padding: 50px;
+}
+.trending-artists h2 {
+  width: 33%;
+  flex-shrink: 0;
+}
+.trending-artists .btn-black {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.trending-artists .cards-container {
+  width: 67%;
+  overflow:scroll;
+  justify-content: flex-start;
+}
+.trending-artists .card {
+  width: 300px;
+}

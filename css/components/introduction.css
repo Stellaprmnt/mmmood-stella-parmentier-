@@ -1,0 +1,43 @@
+.introduction {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+}
+
+.introduction-picture {
+  object-fit: cover;
+  object-position: 29% 50%;
+  width: 300px;
+  border-radius: 6px;
+}
+
+.introduction-circle {
+  position: center;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin: 0 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.introduction-circle p {
+  font-weight: bold;
+  font-size: x-large;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .introduction {
+    flex-direction: column;
+  }
+  .introduction-picture {
+    margin: 30px;
+  }
+  .introduction h2 {
+    margin-top: 30px;
+  }
+}
